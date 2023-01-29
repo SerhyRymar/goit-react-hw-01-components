@@ -1,0 +1,10 @@
+.category {
+  display: block;
+  text-align: center;
+
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+  font-weight: bold;
+  color: rgb(8, 24, 63);
+}
