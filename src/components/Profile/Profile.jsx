@@ -6,28 +6,28 @@ export const Profile =
   return (
     <>
       <div className={styles.profile}>
-        <div className={styles.profileCard}>
+        <div className={styles.profile_card}>
           <img
-            className={styles.profileImg}
+            className={styles.profile_img}
             src={avatar}
             alt="Profile_avatar"
           />
-          <p className={styles.profileName}>{username}</p>
+          <p className={styles.profile_name}>{username}</p>
           <p className={styles.tag}>{tag}</p>
           <p className={styles.location}>{location}</p>
         </div>
-        <ul className={styles.statsList}>
-          <li className={styles.statsItems}>
-            <span className={styles.statsInfo}>Followers</span>
-            <span className={styles.statsQuantity}>{followers}</span>
+        <ul className={styles.stats_list}>
+          <li className={styles.stats_items}>
+            <span className={styles.stats_info}>Followers</span>
+            <span className={styles.stats_quantity}>{followers}</span>
           </li>
-          <li className={styles.statsItems}>
-            <span className={styles.statsInfo}>Views</span>
-            <span className={styles.statsQuantity}>{views}</span>
+          <li className={styles.stats_items}>
+            <span className={styles.stats_info}>Views</span>
+            <span className={styles.stats_quantity}>{views}</span>
           </li>
-          <li className={styles.statsItems}>
-            <span className={styles.statsInfo}>Likes</span>
-            <span className={styles.statsQuantity}>{likes}</span>
+          <li className={styles.stats_items}>
+            <span className={styles.stats_info}>Likes</span>
+            <span className={styles.stats_quantity}>{likes}</span>
           </li>
         </ul>
       </div>

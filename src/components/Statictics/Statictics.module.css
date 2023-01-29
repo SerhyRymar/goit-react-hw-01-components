@@ -1,0 +1,25 @@
+.statisstic {
+  margin: 0 auto;
+  width: 300px;
+  background-color: rgb(238, 243, 246);
+  box-shadow: 3px 3px 3px 3px rgba(83, 104, 116, 0.4)
+}
+.statisstic_title {
+  text-align: center;
+  text-transform: uppercase;
+}
+.statisstic_list {
+  padding-left: 0;
+  display: flex;
+}
+.statisstic_item {
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+}
+.statisstic_label {
+  text-align: center;
+}
+.statisstic_percentage {
+  text-align: center;
+}
